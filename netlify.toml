@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# The site has no index.html, so serve the latest game version at the homepage.
+[[redirects]]
+  from = "/"
+  to = "/Gluppy8.html"
+  status = 200
